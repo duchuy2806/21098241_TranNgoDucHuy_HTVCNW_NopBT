@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai Thuc Hanh Tuan 3</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px auto;
+        }
+
+        .wrapper {
+            width: 1089px;
+            height: 700px;
+            box-sizing: border-box;
+            background-color: antiquewhite;
+        }
+
+        body {
+            background-image: url(../img/hinh-nen-4k-tuyet-dep-cho-may-tinh.jpg);
+        }
+
+        header {
+            width: 1089px;
+            height: 150px;
+            background-color: rgb(33, 209, 86);
+            position: relative;
+        }
+
+        .top-menu {
+            height: 50px;
+            width: 600px;
+            position: absolute;
+            top: 70px;
+            right: 30px;
+        }
+
+        nav {
+            width: 1089px;
+            height: 50px;
+            background-color: pink(224, 95, 175);
+        }
+
+        .content {
+            width: 1089px;
+            height: 400px;
+            background-color: blue;
+        }
+
+        aside {
+            width: 40%;
+            height: 400px;
+            background-color: gray(136, 149, 172);
+            float: left;
+        }
+
+        section {
+            width: 60%;
+            height: 400px;
+            background-color: purple;
+            float: left;
+        }
+
+        footer {
+            width: 1089px;
+            height: 200px;
+            background-color: khaki(210, 231, 150);
+            position: relative;
+        }
+
+        .menu li {
+            height: 50px;
+            width: 150px;
+            line-height: 50px;
+            list-style: none;
+            float: left;
+            background-color: steelblue;
+            text-indent: 20px;
+        }
+
+        li a {
+            text-decoration: none;
+            color: yellow;
+            font-weight: bolder;
+        }
+
+        .menu li:hover {
+            background-color: violet;
+        }
+
+        li:hover>a {
+            color: blue(58, 18, 224);
+            font-style: italic;
+        }
+
+        .top-menu li {
+            line-height: 50px;
+            display: inline-flex;
+            width: 90px;
+        }
+
+        #frm {
+            width: 100%;
+            height: 400px;
+            background-color: aliceblue(194, 181, 224);
+        }
+
+        .lbl {
+            width: 30%;
+            height: 380px;
+            background-color: aliceblue(194, 181, 224);
+            float: left;
+            padding-left: 20px;
+        }
+
+        .inp {
+            width: 60%;
+            height: 380px;
+            background-color: aliceblue(194, 181, 224);
+            float: left;
+        }
+
+        #frm1 {
+            display: inline-flex;
+        }
+
+        #h1 {
+            position: absolute;
+            text-align: center;
+            top: 20px;
+            left: 40px;
+            color: floralwhite;
+            text-shadow: 5px 10px 10px navy(13, 26, 77);
+        }
+
+        #h2 {
+            position: absolute;
+            text-align: center;
+            top: 55px;
+            left: 400px;
+            color: sienna;
+            text-shadow: 2px 3px 5px yellow;
+        }
+
+        #h3 {
+            position: absolute;
+            text-align: center;
+            top: 55px;
+            left: 400px;
+            color: sienna;
+            text-shadow: 2px 3px 5px yellow;
+        }
+
+        #h4 {
+            position: absolute;
+            text-align: center;
+            top: 80px;
+            left: 400px;
+            color: sienna;
+            text-shadow: 2px 3px 5px yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <H1 id="h1">TRUONG DAI HOC CONG NGHIEP THANH PHO HO CHI MINH</H1>
+            <h2 ID="H2">KHOA CONG NGHE THONG TIN </h2>
+            <img src="../img/OIP.jfif" alt="" srcset="" width="100%" height="120%">
+            <ul class="top-menu">
+                <li><a href="">FIT</a></li>
+                <li><a href="">DOAN TN</a></li>
+                <li><a href="">TTTH</a></li>
+                <li><a href="">SE</a></li>
+                <li>
+                    <form action="" method="post" id="frm1">
+                        <input type="text" name="txtName" placeholder="Name">
+                        <button>go</button>
+                    </form>
+                </li>
+            </ul>
+        </header>
+        <nav>
+            <ul class="menu">
+                <li><a href="">HOME</a></li>
+                <li><a href="">SERVICE</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">HELP</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <aside>
+
+            </aside>
+            <section>
+                <form action="#" method="get" id="frm">
+                    <br>
+                    <div class="lbl">
+                        <label for="">Nhan 1</label><br><br>
+                        <label for="">Nhan 2</label><br><br>
+                        <label for="">Nhan 3</label><br><br>
+                        <label for="">Nhan 4</label><br><br>
+                        <label for="">Nhan 5</label><br><br>
+                    </div>
+                    <div class="lbl">
+                        <input type="text"name=""id=""> <br><br>
+                        <input type="text"name=""id=""> <br><br>
+                        <input type="text"name=""id=""> <br><br>
+                        <input type="text"name=""id=""> <br><br>
+                        <input type="text"name=""id=""> <br><br>
+                    </div>
+                </form>
+            </section>
+        </div>
+        <footer>
+            <img src="../img/footer.jfif" alt="" srcset="" width="100%" height="100%">
+            <h3 id="h3">@copyRight: 21084351, Nguyen Tran Tien Hung</h3>
+            <h4 id="h4">DHCNTT17BTT</h4>
+        </footer>
+    </div>
+</body>
+
+</html>
